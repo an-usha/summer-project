@@ -30,8 +30,8 @@ if(isset($_POST['add']))
         }
         if($result || $result1)
         {
-            echo '<script src="../Java/jquery-3.4.1.min.js"></script>';
-            echo '<script src="../Java/sweetalert2.all.min.js"></script>';
+            echo '<script src="../js/jquery-3.4.1.min.js"></script>';
+            echo '<script src="../js/sweetalert2.all.min.js"></script>';
             echo '<script>
                 Swal.fire({
                     type:"success",

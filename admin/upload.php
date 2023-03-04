@@ -17,8 +17,8 @@ if(isset($_POST['submit']) && isset($_FILES['my']))
     // echo $img_type;
     if($img_type!='application/pdf')
     {
-        echo '<script src="../Java/jquery-3.4.1.min.js"></script>';
-        echo '<script src="../Java/sweetalert2.all.min.js"></script>';
+        echo '<script src="../js/jquery-3.4.1.min.js"></script>';
+        echo '<script src="../js/sweetalert2.all.min.js"></script>';
         echo '<script>
         Swal.fire({
             type:"success",

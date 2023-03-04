@@ -192,8 +192,8 @@ if (mysqli_num_rows($result)>0)
 </table>
 
       </div>
-      <script src="../Java/jquery-3.4.1.min.js"></script>
-        <script src="../Java/sweetalert2.all.min.js"></script>
+      <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/sweetalert2.all.min.js"></script>
      <script>
      $('.delete').on('click',function(e){
         e.preventDefault();

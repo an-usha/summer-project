@@ -13,8 +13,8 @@
 	    $result=mysqli_query($con,$query) or die(mysqli_error($con));
         if($result)
 		{     
-    echo '<script src="../Java/jquery-3.4.1.min.js"></script>';
-	echo '<script src="../Java/sweetalert2.all.min.js"></script>';
+    echo '<script src="../js/jquery-3.4.1.min.js"></script>';
+	echo '<script src="../js/sweetalert2.all.min.js"></script>';
 	echo '<script>
         Swal.fire({
             type:"success",

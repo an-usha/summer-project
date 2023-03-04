@@ -21,8 +21,8 @@
 	}
 	if($phone==$p)
 		{
-			echo '<script src="../Java/jquery-3.4.1.min.js"></script>';
-			echo '<script src="../Java/sweetalert2.all.min.js"></script>';
+			echo '<script src="../Jquery/jquery-3.4.1.min.js"></script>';
+			echo '<script src="../Jquery/sweetalert2.all.min.js"></script>';
 			echo '<script>
         
 			Swal.fire({
@@ -60,8 +60,8 @@
 		}
 	
     
-		echo '<script src="../Java/jquery-3.4.1.min.js"></script>';
-		echo '<script src="../Java/sweetalert2.all.min.js"></script>';
+		echo '<script src="../js/jquery-3.4.1.min.js"></script>';
+		echo '<script src="../js/sweetalert2.all.min.js"></script>';
 		echo '<script>
         Swal.fire({
             type:"success",

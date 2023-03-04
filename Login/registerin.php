@@ -28,8 +28,8 @@
 			$mail=$row['Email'];
 			if($uname==$username || $mail==$email)
 			{
-				echo '<script src="../Java/jquery-3.4.1.min.js"></script>';
-			echo '<script src="../Java/sweetalert2.all.min.js"></script>';
+				echo '<script src="../js/jquery-3.4.1.min.js"></script>';
+			echo '<script src="../js/sweetalert2.all.min.js"></script>';
 			echo '<script>
 			
 			Swal.fire({
@@ -44,8 +44,8 @@
 			}
 			else if($dname!=$name && $phone!=$num)
 			{
-				echo '<script src="../Java/jquery-3.4.1.min.js"></script>';
-				echo '<script src="../Java/sweetalert2.all.min.js"></script>';
+				echo '<script src="../js/jquery-3.4.1.min.js"></script>';
+				echo '<script src="../js/sweetalert2.all.min.js"></script>';
 				echo '<script>
 			
 			Swal.fire({
