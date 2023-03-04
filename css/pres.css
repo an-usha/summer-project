@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url("RobotoCondensed-Regular.ttf");
+    
+}
+
+
+.second
+{
+    height: 80%;
+	width: 100%;
+	position: absolute;
+}
+
+.detail{
+	display: block;
+	float: left;
+	margin-left: 250px;
+	margin-top: 55px;
+	width: 21%;
+	height: 43%;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+	font-family:'Roboto' ;
+}
+
+.detail  h2{
+	font-size: 22px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.detail p{
+	font-size: 16px;
+	padding: 10px 5px;
+	
+}
+
+.nav_bar{
+	margin-left: 550px;
+	/* border-bottom: 1px solid black; */
+	width: 780px;
+	height: 51px;
+	padding: 0px 20px 0 px 20px;
+}
+
+.nav_bar ul{
+	padding: 0;
+	list-style: none;
+}
+
+.nav_bar ul li{
+	float: left;
+	font-size: 16px;
+	font-family: 'Roboto';
+	margin-right: 10px;
+	
+}
+
+.nav_bar ul li a{
+	text-decoration: none;
+	color: black;
+	background: #3cb371;
+	/* border: 1px solid black; */
+	border-bottom: none;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+	padding: 15px 15px;
+	-webkit-border-top-right-radius:  10px;
+	-webkit-border-top-left-radius:  10px;
+	width: 100px;
+	display: block;
+	text-align: center;
+}
+
+.nav_bar ul li a:hover{
+	text-decoration: none;
+	color: white;
+	background: #4fe291;
+	transition: background-color 300ms ease-in;
+
+}
+
+.nav_bar ul li a#onlink{
+	background-color: #FFFFFF;
+	color: #000000;
+	border-bottom: 1px solid #FFFFFF;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.nav_bar ul li a#onlink:hover{
+	background: #FFFFFF;
+	color: #000000;
+	border-bottom: 1px solid #FFFFFF;
+
+}
+
+.main_content{
+	margin-left: 550px;
+	width: 780px;
+	padding: 20px;
+	min-height: 83%;
+	border-top: none;
+	background: #FFFFFF;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.main_content p{
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+input[type="submit"]{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  background-color: #3cb371;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 35px;
+}
+input[type="submit"]:hover{
+	background-color: #2b704a;
+  color: #FFFFFF;
+  border: #FFFFFF;
+  cursor:pointer ;
+	
+}

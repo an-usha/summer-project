@@ -1,0 +1,110 @@
+@font-face{
+  font-family: "Roboto";
+  src: url("RobotoCondensed-Regular.ttf");
+  
+}
+.medform {
+    display: block;
+    width: 50%;
+    height: 76%;
+    float: left;
+    /* margin-top: -10px; */
+    margin-left: 440px;
+    padding: 20px 10px 10px 30px;
+    /* border: 1px solid #3B3B3B; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* box-shadow: 5px 10px 6px #888888; */
+    background-color: #FFFFFF;
+    font-family: "Roboto";
+
+  }
+  .medform h3{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  label{
+    width: 140px;
+    display: inline-block;
+  }
+
+  .fname,.med_type,.qty,.price,.text,.mg{
+    margin-top: 10px;
+}
+
+.fname,.med_type,.qty,.price,.text,.button,.mg{
+    padding: 10px 5px 10px 5px;
+}
+  
+input[type="text"], input[type="number"]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(124, 120, 120);
+  border-radius: 2px;
+  box-sizing: border-box;
+  height:20px;
+}
+select{
+  width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(124, 120, 120);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height:30px;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid rgb(124, 120, 120);
+  border-radius: 2px;
+  box-sizing: border-box;
+  height:40px;
+}
+  
+input[type="submit"]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #3cb371;
+  background-color: #3cb371;
+  color: #FFFFFF;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 35px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #2b704a;
+  color: #FFFFFF;
+  border: #FFFFFF;
+  cursor:pointer ;
+}
+
+ /* Javascript */
+ #demo, #demo1, #demo2, #demo3, #demo4, #demo5, #demo6,#demo7{
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(175, 58, 58);
+  padding: 10px 10px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+input:focus, select:focus,textarea {
+  outline: none;
+  box-shadow: 0px 0px 5px #3cb371;/*here change the color*/
+  border:1px solid #3cb371;/*here change the color*/
+}

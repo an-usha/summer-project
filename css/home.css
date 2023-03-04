@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @font-face{
+    font-family: "Alegreya-Italic";
+    src: url("Alegreya-Italic-VariableFont_wght.ttf");
+  }
+
+  @font-face{
+    font-family: "Lora";
+    src: url("Lora-Italic-VariableFont_wght.ttf");
+    
+  }
+
+  @font-face{
+    font-family: "Roboto";
+    src: url("RobotoCondensed-Regular.ttf");
+    
+  }
+.wholebody{
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.mainbody{
+  display: block;
+  position: fixed;
+  width: 17%;
+  height: 90%;
+  margin-top: 15px;
+  padding: 5px 5px;
+  background-color: #3cb371;
+  color: beige;
+  border-top: 1px solid white;
+}
+
+.name{
+  display: block;
+  /* position: fixed; */
+  height: 8%;
+  width:100%;
+  background-color: white;
+}
+
+
+.name p{
+  position: fixed;
+    float: left;
+    width: 17%;
+    font-size: 26px;
+    font-weight: 700;
+    background-color: #3cb371;
+    padding: 5px 5px;
+    color: bisque;
+    font-family: "Roboto";
+}
+.name h2{
+  float: right;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px 15px;
+  color: black;
+  font-family: "Roboto";
+  text-transform: capitalize;
+}
+.name a{
+    float: right;
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Roboto";
+    margin-top: 8px;
+    padding: 5px 15px;
+    background-color: #FFF;
+    background-color: #3cb371;
+    border-radius: 5px;
+    
+}
+
+.name a:hover{
+  background-color: #2b704a;
+  color: #FFF;
+}
+
+.name img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* .menu{
+  display: block;
+  float: left;
+  width: 17%;
+  height: 90%;
+  margin-left: -17%;
+  margin-top: 15px;
+  padding: 5px 5px;
+  background-color: #3cb371;
+  color: beige;
+  border-top: 1px solid white;
+    
+} */
+
+.menu ul li{
+    list-style: none;
+    
+}
+
+.dash a{
+  display: block;
+  color: beige;
+  text-decoration: none;
+  padding: 20px 5px 15px 5px;
+  font-size: 16px;
+  margin-left: 5px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+
+.doc,.reg, .app,.p, .m, .t{
+  display: block;
+  height: 50px;
+  font-size: 16px;
+  margin-left: 9px;
+  font-family: "Roboto";
+  font-weight: 500;
+
+}
+
+
+.menu fieldset{
+    border: none;
+}
+
+.menu fieldset legend{
+  padding-top: 5px;
+  font-size: small;
+  text-transform: capitalize;
+  color: silver;
+  margin-left: 5px;
+  font-family: "Roboto";
+
+}
+
+.dr a,.submenu a, .appoint a,.pre a, .med a, .test a{
+    text-decoration: none;
+    color: bisque;
+}
+
+/* dropdown */
+
+.dr, .submenu, .appoint, .med,.pre, .test {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .dr ul,.submenu ul, .appoint ul,.pre ul, .med ul, .test ul {
+    position: absolute;
+    display: block;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: -125px;
+    width: 150px;
+    padding: 10px 5px;
+    background-color: white;
+    color: black;
+    display: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 500;
+
+  }
+  .pre ul{
+    position: absolute;
+    display: block;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: -85px;
+    width: 150px;
+    padding: 10px 5px;
+    background-color: white;
+    color: black;
+    display: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
+
+  .dr ul li a,.submenu ul li a, .appoint ul li a,.pre ul li a, .med ul li a, .test ul li a{
+      text-decoration: none;
+      color: black;
+  }
+  .dr ul li,.submenu ul li, .appoint ul li,.pre ul li, .med ul li, .test ul li{
+    display: block;
+    padding: 10px 5px 10px 5px;
+
+  }
+
+  .dr:hover ul,.submenu:hover ul, .appoint:hover ul,.pre:hover ul, .med:hover ul, .test:hover ul {
+    display: block;    
+  }
+
+  .dr:hover>.doc,.submenu:hover>.reg, .appoint:hover>.app, .med:hover>.m, .test:hover>.t{
+    display: block;
+    height: 150px;
+    color: black;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  
+  }
+  .pre:hover>.p{
+    display: block;
+    height: 120px;
+    color: black;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
+  }
+  
+  .dr li:hover,.submenu li:hover,.appoint li:hover ,.pre li:hover, .med li:hover, .test li:hover {
+    background-color: silver;
+    color: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+
+  /* dropdown */
+
+  .file{
+    font-size: 26px;
+    padding: 5px 5px;
+    color: black;
+    font-family: "Roboto";
+    text-align: left;
+
+  }
+

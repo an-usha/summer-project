@@ -1,0 +1,204 @@
+@font-face{
+    font-family: "Lora";
+    src: url("Lora-Italic-VariableFont_wght.ttf");
+    
+}
+@font-face{
+    font-family: "Roboto";
+    src: url("RobotoCondensed-Regular.ttf");
+    
+}
+
+.all{
+    display: block;
+    width: 75%;
+    height: 90%;
+    float: left;
+    /* margin-top: -10px; */
+    margin-left: 260px;
+    padding: 20px 10px 10px 30px;
+    /* border: 1px solid rgb(124, 120, 120);; */
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #FFFFFF;
+}
+
+.upper{
+    display: block;
+    width: 100%;
+    height: 6%;
+    border-bottom: 1px solid rgb(124, 120, 120);
+    margin-left: -10px;
+    padding-bottom: 40px;
+}
+
+.head{
+    display: block;
+    width: 70%;
+    float: left;
+}
+
+h3{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 30px;
+    font-family: 'Roboto';
+}
+
+.back{
+    display: inline;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    background-color: #3B3B3B;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.back:hover{
+    background-color: #3cb371;
+}
+
+.new{
+    display: block;
+    width: 15%;
+    float: left;
+    background-color: #3cb371;
+    margin-top: -5px;
+    margin-left: 105px;
+    padding: 9.5px 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.new a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+
+}
+
+.new a:hover{
+    font-weight: 800;
+    color: rgb(124, 120, 120);
+}
+
+.search_btn{
+    display: block;
+    height: 8%;
+    width: 100%;
+    margin-top: 10px;
+    float: right;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+input [type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(124, 120, 120);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height:20px;
+    font-family: 'Roboto';
+
+}
+
+input:focus{
+  outline: none;
+  box-shadow: 0px 0px 5px #3cb371; /*here change the color*/
+  border:1px solid #3cb371; /*here change the color*/
+
+}
+
+.tb{
+    width: 100%;
+    /* border: 1px solid rgb(124, 120, 120); */
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: "Roboto";
+    margin-left: -10px;
+
+}
+
+th,tr,td{
+    /* border: 1px solid rgb(124, 120, 120); */
+    padding-left: 5px;
+    text-align: left;
+    height: 50px;
+    text-decoration: none;
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+th{
+    background-color: #3cb371;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+tr{
+    border-bottom: 1px solid rgb(124, 120, 120);
+
+}
+
+.edit, .view, .delete{
+    text-decoration: none;
+}
+
+.edit, .delete,.view{
+    color: white;
+    background-color: #3cb371;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.view{
+    background-color: #008CBA;
+}
+
+.edit{
+    margin-left: 25px;
+}
+
+.delete{
+    margin-left: 25px;
+    background-color: #d11a2a;
+}
+.view:hover{
+    background-color: #0a7599;
+}
+
+.edit:hover{
+    background-color: #2b704a;
+}
+.delete:hover{
+    background-color: #9c0b17;
+}
+
+
+.page{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto';
+    background-color: #3cb371;
+    color: white;
+    display: block;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px 10px 5px 10px;
+    float: left;
+    
+}
+
+.page:hover{
+    background-color: #FFFFFF;
+    color: #3cb371;
+}
+
+

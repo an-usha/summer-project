@@ -1,0 +1,100 @@
+@font-face{
+  font-family: "Roboto";
+  src: url("RobotoCondensed-Regular.ttf");
+  
+}
+.testform {
+    display: block;
+    width: 50%;
+    height: 50%;
+    float: left;
+    /* margin-top: -10px; */
+    margin-left: 440px;
+    padding: 20px 10px 10px 30px;
+    /* border: 1px solid rgb(124, 120, 120); */
+    /* box-shadow: 5px 10px 6px #888888; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #FFFFFF;
+    font-family: "Roboto";
+
+  }
+  .testform h3{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  label{
+    width: 140px;
+    display: inline-block;
+  }
+
+  .fname, .text{
+    margin-top: 10px;
+}
+
+.fname,.text,.button{
+    padding: 10px 5px 10px 5px;
+}
+  
+input[type="text"]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(124, 120, 120);
+  border-radius: 4px;
+  box-sizing: border-box;
+  height:25px;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(124, 120, 120);
+  border-radius: 4px;
+  box-sizing: border-box;
+  height:45px;
+
+}
+
+  
+input[type="submit"]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #3cb371;
+  background-color: #3cb371;
+  color: #FFFFFF;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 35px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #2b704a;
+  color: #FFFFFF;
+  border: #FFFFFF;
+  cursor: pointer;
+}
+
+input:focus, select:focus,textarea {
+  outline: none;
+  box-shadow: 0px 0px 5px #3cb371;/*here change the color*/
+  border:1px solid #3cb371;/*here change the color*/
+}
+
+ /* Javascript */
+ #demo, #demo1, #demo2, #demo3, #demo4, #demo5, #demo6,#demo7{
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(175, 58, 58);
+  padding: 10px 10px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}

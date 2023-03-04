@@ -1,0 +1,126 @@
+@font-face{
+  font-family: "Roboto";
+  src: url("RobotoCondensed-Regular.ttf");
+  
+}
+
+  .registerform {
+    display: block;
+    width: 50%;
+    height: 80%;
+    float: left;
+    /* margin-top: -10px; */
+    margin-left: 440px;
+    padding: 5px 5px 5px 20px;
+    /* border: 1px solid rgb(124, 120, 120); */
+    /* box-shadow: 5px 10px 6px #888888; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #FFFFFF;
+
+  }
+  h3{
+    font-size: 30px;
+    font-family: 'Roboto';
+    text-align: center;
+    
+  }
+  .fullname{
+    display: block;
+    margin-top: 5px;
+
+  }
+
+  .heading{
+    border-bottom: 1px solid rgb(177, 176, 176);
+    padding-bottom: 10px;
+  }
+
+  label{
+    display: inline-block;
+    font-family: 'Roboto';
+
+  } 
+
+  input[type="text"], input[type="date"],input[type="number"]{
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(124, 120, 120);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height:20px;
+    font-family: 'Roboto';
+
+  }
+  select{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(124, 120, 120);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height:30px;
+    font-size: 12px;
+    font-family: 'Roboto';
+
+  }
+
+
+  input[type="submit"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #3cb371;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 35px;
+    font-family: 'Roboto';
+    background-color: #3cb371;
+    color: #FFFFFF;
+  }
+  input[type=submit]:hover {
+    background-color: #2b704a;
+    color: #FFFFFF;
+    border: 1px solid #3cb371;
+  }
+
+  input[type="radio"]{
+    width: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-family: 'Roboto';
+
+  }
+  
+
+#bg option{
+  padding: 30px 30px 30px 30px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+/*javascript*/
+
+#demo, #demo1, #demo2, #demo3, #demo4, #demo5, #demo6,#demo7{
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: rgb(175, 58, 58);
+  padding: 10px 10px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+input:focus, select:focus,textarea {
+  outline: none;
+  box-shadow: 0px 0px 5px #3cb371;/*here change the color*/
+  border:1px solid #3cb371;/*here change the color*/
+}
+
+
+ 

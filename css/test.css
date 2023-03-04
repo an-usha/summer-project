@@ -1,0 +1,96 @@
+@font-face{
+    font-family: "Lora";
+    src: url("Lora-Italic-VariableFont_wght.ttf");
+    
+  }
+
+.upper{
+    display: block;
+    width: 100%;
+    height: 6%;
+    border-bottom: 1px solid #3B3B3B;
+    margin-bottom: 10px;
+}
+
+.head{
+    display: block;
+    width: 70%;
+    float: left;
+}
+
+.new{
+    display: block;
+    width: 15%;
+    float: left;
+    background-color: #3cb371;
+    padding: 5px 5px;
+    margin-left: 100px;
+}
+
+.new a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Lora";
+
+}
+
+.new a:hover{
+    font-weight: 800;
+    color: #3B3B3B;
+}
+
+.alltest{
+    display: block;
+    width: 70%;
+    height: 90%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 20px 10px 10px 30px;
+    border: 1px solid #3B3B3B;
+    box-shadow: 5px 10px 6px #888888;
+    background-color: #FFFFFF;
+}
+
+.tb{
+    width: 100%;
+    border: 1px solid #3B3B3B;
+    font-size: 16px;
+    font-family: "Lora";
+    border-collapse: collapse;
+    
+}
+
+th,tr,td{
+    border: 1px solid #3B3B3B;
+    padding-left: 5px;
+    text-align: left;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+
+.edit, .delete{
+    color: white;
+    background-color: #3cb371;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.delete{
+    margin-left: 25px;
+    background-color: #d11a2a;
+}
+
+.view:hover{
+    color: #3cb371;
+}
+
+.edit:hover, .delete:hover{
+    background-color: #3B3B3B;
+
+}

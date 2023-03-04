@@ -1,0 +1,78 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("RobotoCondensed-Regular.ttf");
+    
+  }
+  
+.left
+{
+    margin-left: 40px;
+    margin-top: 10%;
+    display: block;
+    float: left;
+    width:25%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 10px 15px 10px 15px ;
+
+}
+label{
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 18px;
+    width: 115px;
+    margin-top: 10px;
+    text-align: left;
+    clear: both;
+} 
+
+h3{
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 25px;
+}
+
+.right{
+    display: block;
+    margin-left: 2%;
+    width: 50%;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    float: left;
+}
+
+table{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.tb{
+    width: 100%;
+    /* border: 1px solid rgb(124, 120, 120); */
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: "Roboto";
+    margin-left: -10px;
+
+}
+
+tr,td{
+    padding: 10px 10px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+th{
+    background-color: #3cb371;
+    color: #FFFFFF;
+    font-weight: 200;
+    padding: 10px 48px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+tr{
+    border-bottom: 1px solid rgb(124, 120, 120);
+}

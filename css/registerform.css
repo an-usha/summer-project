@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .wholebody{
+    display: block;
+    width: 1000px;
+    height: 700px;
+    position: relative;
+  }
+  .section1{
+    box-sizing: border-box;
+    display: block;
+    width: 300px;
+    float: left;
+  }
+  .section2{
+    box-sizing: border-box;
+    display: block;
+    width: 700px;
+    float: right;
+    background-color: wheat;
+  }
+  .head-container {
+    position: absolute;
+    background-color:#3B3B3B;
+    color: #ffffff;
+    width: 300px;
+    height: 700px;
+    box-shadow:rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  .name {
+    font-family: 'Arial Narrow';
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 15px 3px 15px 5px;
+    /* border-bottom: .1px solid white; */
+  }
+
+  .menu{
+    position: absolute;
+    font-family: 'Arial Narrow';
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .dash{
+    margin-bottom: 20px;
+  }
+  
+  .menu li{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    /* border-bottom: .1px solid white; */
+  }
+  
+  .menu li:hover{
+    color: #ffffff;
+    color: rgb(55, 192, 117);
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 15px 5px 20px 8px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  
+  .menu li a:hover {
+    color: #ffffff;
+    color: rgb(55, 192, 117);
+  }
+ 
+  .submenu, .ssmenu , .med, .test{
+    position: relative;
+    padding: 15px 5px 15px 8px;
+    margin-bottom: 10px;
+  }
+  
+  .submenu ul, .ssmenu ul, .med ul, .test ul{
+    position: absolute;
+    list-style: none;
+    min-width: 200px;
+    background-color: #443e3e;
+    z-index: 10;
+    margin-left: 75px;
+  }
+
+  
+  .submenu:hover ul, .ssmenu:hover ul, .med:hover ul, .test:hover ul {
+    display: block;
+  }
+
+  .menu fieldset{
+    display: block;
+    width: 300px;
+    height: 90px;
+    margin-bottom: 15px;
+    border: none;
+   
+  }
+  .registerform {
+    position: absolute;
+    display: block;
+    width: 1000px;
+    height: 600px;
+    float: right;
+    margin-top: 60px;
+    margin-left: 40px;
+    padding: 50px 10px 10px 30px;
+    border: 1px solid #3B3B3B;
+    box-shadow:rgba(0, 0, 0, 0.5);
+    background-color: #eedcdc;
+
+  }
+  .registerform h1{
+    display: block;
+    margin-top: -25px;
+    font-size: 40px;
+    
+  }
+
+  .registerform p{
+    padding: 10px 5px;
+  }
+
+  
+
+ 

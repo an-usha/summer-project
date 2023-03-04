@@ -1,0 +1,123 @@
+@font-face{
+    font-family: "Lora";
+    src: url("Lora-Italic-VariableFont_wght.ttf");
+    
+}
+@font-face{
+    font-family: "Roboto";
+    src: url("RobotoCondensed-Regular.ttf");
+    
+}
+
+.allapp{
+    display: block;
+    width: 75%;
+    height: 85%;
+    float: left;
+    margin-top: -10px;
+    margin-left: 45px;
+    padding: 20px 10px 10px 30px;
+    /* border: 1px solid rgb(124, 120, 120);; */
+    box-shadow: 2px 2px 2px 1px rgba(58, 21, 21, 0.2);
+    background-color: #FFFFFF;
+}
+
+.upper{
+    display: block;
+    width: 100%;
+    height: 6%;
+    border-bottom: 1px solid rgb(124, 120, 120);
+    margin-left: -10px;
+    padding-bottom: 40px;
+}
+
+.head{
+    display: block;
+    width: 70%;
+    float: left;
+}
+
+h3{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.new{
+    display: block;
+    width: 17%;
+    float: left;
+    background-color: #3cb371;
+    padding: 9.5px 8px;
+    margin-top: -5px;
+    margin-left: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.new a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+
+}
+
+.new a:hover{
+    font-weight: 800;
+    color: rgb(124, 120, 120);
+}
+
+.tb{
+    width: 100%;
+    margin-top: 10px;
+    /* border: 1px solid rgb(124, 120, 120); */
+    font-size: 16px;
+    font-family: "Roboto";
+    border-collapse: collapse;
+    margin-left: -10px;
+    
+}
+
+th,tr,td{
+    /* border: 1px solid rgb(124, 120, 120); */
+    padding-left: 5px;
+    text-align: left;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+th{
+    background-color: #3cb371;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+tr{
+    border-bottom: 1px solid rgb(124, 120, 120);
+
+}
+
+.edit, .delete{
+    color: white;
+    background-color: #3cb371;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.delete{
+    margin-left: 25px;
+    background-color: #d11a2a;
+}
+
+.view:hover{
+    color: #3cb371;
+}
+
+.edit:hover, .delete:hover{
+    background-color: rgb(124, 120, 120);
+
+}
